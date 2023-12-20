@@ -1,0 +1,11 @@
+// -*- mode: go -*-
+
+package test
+
+import "github.com/confero-network/go-confero/rlp"
+
+type Test struct {
+	RawValue          rlp.RawValue
+	PointerToRawValue *rlp.RawValue
+	SliceOfRawValue   []rlp.RawValue
+}
